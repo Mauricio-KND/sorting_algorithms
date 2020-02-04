@@ -1,8 +1,8 @@
 #include "sort.h"
 /**
- * insertion_sort_list - Sorts dbly linkd list of ints in ascending order.
- * @list: Doubly linked list.
- * Return: Nothing.
+ *insertion_sort_list - Sorts dbly linkd list of ints in ascending order.
+ *@list: Doubly linked list.
+ *Return: Nothing.
  */
 void insertion_sort_list(listint_t **list)
 {
