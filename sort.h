@@ -3,11 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * struct listint_s - Doubly linked list node
+ * print_array - Prints an array of integers
  *
- * @n: Integer stored in the node
- * @prev: Pointer to the previous element of the list
- * @next: Pointer to the next element of the list
+ * @array: The array to be printed
+ * @size: Number of elements in @array
  */
 typedef struct listint_s
 {
@@ -21,5 +20,6 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
 
 #endif /* _SORT_H_ */
