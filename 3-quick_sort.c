@@ -13,7 +13,7 @@ void quick_sort(int *array, size_t size)
 }
 /**
  *quickSort - Divide and Conquer algorithm.
- *@array: Array to be sorted.
+ *@arr: Array to be sorted.
  *@low: Starting Index.
  *@high: Ending Index.
  *@size: Size of array.
